@@ -1,0 +1,126 @@
+.settingsdiv {
+  display: flex;
+  flex-direction: row;
+}
+.settingsNavBar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  background-color: rgb(52, 52, 75);
+  width: 285px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.buttonsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.settingsNavBarButtons {
+  height: 30px;
+  background-color: inherit;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.SettingsBtn {
+  background-color: inherit;
+  border: none;
+  font-size: 15px;
+  color: gray;
+  cursor: pointer;
+}
+.settingsbtnimg {
+  width: 30px;
+  height: 30px;
+}
+.settingsInfoDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 30px;
+  margin-top: 30px;
+  gap: 30px;
+}
+.settingshr {
+  width: 600px;
+  color: gray;
+}
+.infocontent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+}
+.settingsInput {
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(45, 45, 66);
+  border: none;
+}
+.aboutinput {
+  width: 600px;
+  height: 70px;
+  background-color: rgb(45, 45, 66);
+  border: none;
+  border-radius: 10px;
+}
+.inputDiv {
+  display: flex;
+  gap: 20px;
+  width: 620px;
+  flex-direction: column;
+}
+.inputdiv_1 {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.inputdiv_2 {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+label {
+  color: white;
+}
+.inputdiv_div {
+  text-align: start;
+}
+.savebuttons {
+  display: flex;
+  width: 600px;
+  justify-content: end;
+  gap: 20px;
+}
+.savebtn {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(70, 46, 149);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.cancelbtn {
+  width: 60px;
+  height: 40px;
+  background-color: gray;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.inputdiv_div {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.settingsNavBarButtons:hover  {
+  background-color: rgb(13, 94, 94);
+  border-radius: 6px;
+}

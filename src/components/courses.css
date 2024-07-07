@@ -1,0 +1,104 @@
+.coursesImg {
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
+}
+.coursesdiv {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.coursesMain {
+  margin-left: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+}
+.coursesBtn {
+  width: max-content;
+  height: 50px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+.CoursesSecondDiv {
+  display: flex;
+  gap: 60px;
+}
+#simple-tabpanel-0 {
+  width: 500px;
+  text-align: start;
+}
+.AboutInfoText {
+  color: white;
+}
+.MuiTab-root {
+  color: grey !important;
+}
+.MuiTab-root.Mui-selected {
+  color: white !important;
+}
+.CoursesSecondNavBar {
+  margin-top: 80px;
+  margin-left: 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.CoursesSecondNavBarDivs {
+  display: flex;
+  width: 300px;
+  background-color: rgb(45, 45, 66);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.CoursesText {
+  color: white;
+}
+.coursesSecondNavbarImg {
+  width: 110px;
+  height: 60px;
+  border-radius: 10px;
+}
+.CoursesSecondNavBarDiv2 {
+  width: 300px;
+  background-color: rgb(45, 45, 66);
+  border-radius: 10px;
+  display: flex;
+  font-display: row;
+  height: 80px;
+  align-items: center;
+  gap: 10px;
+}
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.favIcon {
+  width: 30px;
+  height: 30px;
+}
+.bestSellerDiv {
+  display: flex;
+  font-display: row;
+  align-items: center;
+  gap: 10px;
+}
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.studentsDiv {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}

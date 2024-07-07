@@ -1,0 +1,55 @@
+.headerDiv {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(45, 45, 66);
+  display: flex;
+  align-items: center;
+}
+.logoDiv {
+  display: flex;
+  gap: 20px;
+  border-right: 1px solid gray;
+  width: 294px;
+}
+.navbarImg {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+.searchbar {
+  height: 30px;
+  width: 300px;
+  background-color: rgb(68, 68, 96);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.userIcon {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.headerbtns {
+  padding-left: 56%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: absolute;
+  right: 20px;
+}
+.searchicon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.searchdiv {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  background-color: rgb(68, 68, 96);
+}
+.headerIcons {
+  cursor: pointer;
+}

@@ -1,0 +1,184 @@
+.homeMainDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.firstChart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 10px;
+  background-color: rgb(45, 45, 66);
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.homeDiv {
+  width: 640px;
+  display: flex;
+
+  display: flex;
+  flex-direction: column;
+}
+.secondChart {
+  padding-left: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+  background-color: rgb(45, 45, 66);
+  border-radius: 10px;
+  margin-left: 20px;
+
+  width: 365px;
+}
+.secondcharts {
+  width: 640px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-top: 20px;
+}
+.dotDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.thirdChart {
+  background-color: rgb(45, 45, 66);
+  border-radius: 10px;
+  margin-left: 33px;
+  width: 205px;
+  height: 330px;
+}
+.forthChart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 10px;
+  background-color: rgb(45, 45, 66);
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  gap: 20px;
+}
+.tutorsDiv {
+  width: 280px;
+  height: 80px;
+  background-color: rgb(66, 66, 95);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+}
+.tutorsIcon {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.tutorsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.tutorAdd {
+  
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.tutorsFirstDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.tutorsSeconDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.homeSecondDiv {
+  display: flex;
+  margin-top: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.planningDiv {
+  gap: 20px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(45, 45, 66) ;
+}
+.homePlanningDivs {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 400px;
+  background-color: rgb(45, 45, 66);
+
+} 
+.homePlanningCard {
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px ;
+  height: 80px;
+  width: 370px;
+  background-color:  rgb(62, 62, 88);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.homePlanningCardText {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  text-align: start;
+}
+.cardImg {
+  width: 60px;
+  height: 60px;
+}
+.planningDivTitle {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.courseTimeDiv {
+  background-color:  rgb(45, 45, 66);
+  display: flex; 
+  height: 580px;
+  border-radius: 10px;
+}
+.courseTimeDiv {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.MuiLinearProgress-root {
+  background-color: rgb(35, 35, 51) !important;
+}
+.courseTimeText {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}

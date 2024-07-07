@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h1 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1280px) {
+  div.statisticsCard {
+    height: 245px;
+  }
+  div.cardsDiv {
+    width: max-content;
+  }
+  div.statisticsCards {
+    flex-direction: column;
+  }
+  div.statisticPoints {
+    flex-direction: column;
+  }
+  div.statisticsDiv {
+    flex-direction: row;
+  }
+}
+@media (max-width: 1540px) {
+  div.statisticsDiv {
+    flex-direction: column;
+    height: max-content;
+  }
+  div.navbardiv {
+    height: initial;
+  }
+  div.mainDiv {
+    height: max-content;
+  }
+  div.navbarcontent {
+    gap: 70px;
+  }
+}
+@media (max-width: 1330px) {
+  div.logoDiv {
+    width: 250px;
+  }
+  div.navbardiv {
+    min-width: 250px;
+  }
+  div.CoursesSecondNavBar {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 1345px) {
+  div.CoursesSecondNavBar {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 1320px) {
+  .logoDiv {
+    width: 280px;
+  }
+  div.CoursesSecondNavBar {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 1290px) {
+  div.firstChart {
+    width: 580px;
+  }
+  div.homeDiv {
+    width: 620px;
+  }
+  div.thirdChart {
+    margin-left: 11px;
+  }
+  div.tutorsFirstDiv {
+    gap: 5px;
+  }
+  div.tutorsSeconDiv {
+    gap: 5px;
+  }
+  div.forthChart {
+    width: 581px;
+  }
+  div.courseTimeDiv {
+    width: 380px;
+  }
+  div.planningDiv {
+    width: 380px;
+  }
+  div.homePlanningDivs {
+    width: 375px;
+  }
+}
+@media (max-width: 1270px) {
+  div.homeDiv {
+    width: 610px;
+  }
+  div.firstChart {
+    margin-left: 14px;
+  }
+  div.secondChart {
+    margin-left: 14px;
+  }
+  div.forthChart {
+    margin-left: 14px;
+  }
+  div.navbarcontent {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1240px) {
+  div.navbardiv {
+    min-width: 230px;
+  }
+  div.logoDiv {
+    width: 230px;
+  }
+}
+@media (max-width: 1220px) {
+  div.navbardiv {
+    min-width: 210px;
+  }
+  div.logoDiv {
+    width: 210px;
+  }
+  div.headerbtns {
+    right: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  div.mainDiv {
+    height: max-content;
+  }
+  div.homeMainDiv {
+    flex-direction: column;
+  }
+  div.homeSecondDiv {
+    flex-direction: row;
+    margin-left: 15px;
+    gap: 1px;
+  }
+  div.homePlanningCard {
+    width: 292px;
+  }
+  div.navbarcontent {
+    gap: 80px;
+  }
+
+  div.navbardiv {
+    height: initial;
+  }
+  div.courseTimeDiv {
+    height: 400px;
+  }
+
+  div.CoursesSecondNavBar {
+    margin-left: 35px;
+  }
+  div.homePlanningDivs {
+    width: 308px;
+  }
+
+  div.planningDiv {
+    width: 360px;
+  }
+  div.courseTimeText {
+    gap: 91px;
+  }
+}
+@media (max-width: 1270px) {
+  img.coursesImg {
+    width: 485px;
+    height: 330px;
+  }
+  div.coursesdiv {
+    flex-direction: column;
+  }
+  div.contentDiv {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  div.studentsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  div.CoursesSecondNavBar {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    width: 200px;
+  }
+  div.CoursesSecondNavBarDiv2 {
+    width: 230px;
+  }
+  div.CoursesSecondNavBar {
+    margin-left: 10px;
+  }
+  button.css-19h3i18-MuiButtonBase-root-MuiButton-root {
+    width: 100px;
+    height: 20px;
+  }
+  div.bestSellerDiv {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 745px) {
+  img.coursesImg {
+    width: 455px;
+    height: 312px;
+  }
+  div.CoursesSecondNavBar {
+    justify-content: center;
+  }
+}
+@media (max-width: 1615px) {
+  hr.settingshr {
+    width: 500px;
+  }
+  input.aboutinput {
+    width: 500px;
+  }
+  div.inputdiv_1 {
+    flex-direction: column;
+  }
+  div.inputdiv_2 {
+    flex-direction: column;
+  }
+  div.savebuttons {
+    width: 500px;
+  }
+}
+@media (max-width: 1460px) {
+  div.savebuttons {
+    width: 120px;
+  }
+  input.aboutinput {
+    width: 420px;
+  }
+  hr.settingshr {
+    width: 420px;
+  }
+}
+@media (max-width: 1270px) {
+  hr.settingshr {
+    width: 320px;
+  }
+  input.aboutinput {
+    width: 320px;
+  }
+  input.settingsInput {
+    width: 260px;
+  }
+}
